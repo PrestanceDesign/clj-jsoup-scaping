@@ -1,6 +1,6 @@
-#+title: Web scraping in Clojure with Jsoup
+#+title: Web scraping with Clojure and Jsoup
 
-Transpose this "Python BeautifulSoup video tutorial" in "Clojure and JSoup":
+Transpose this "Python BeautifulSoup" video tutorial to "Clojure and JSoup":
 https://www.youtube.com/watch?v=XQgXKtPSzUI&list=WL
 
 The Python source code can be view [[https://code.datasciencedojo.com/datasciencedojo/tutorials/blob/master/Web%20Scraping%20with%20Python%20and%20BeautifulSoup/Web%20Scraping%20with%20Python%20and%20Beautiful%20Soup.py][here]].
@@ -9,3 +9,5 @@ The Python source code can be view [[https://code.datasciencedojo.com/datascienc
 #+begin_src sh
 $ clj -m jsoup-scraping.core
 #+end_src
+
+An =graphics_cards.csv= file with the scraped datas is created at the project root directory.
