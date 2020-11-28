@@ -10,4 +10,4 @@ The Python source code can be view [[https://code.datasciencedojo.com/datascienc
 $ clj -m jsoup-scraping.core
 #+end_src
 
-An =graphics_cards.csv= file with the scraped datas is created at the project root directory.
+A =graphics_cards.csv= file with the scraped datas is created in the project root directory.
